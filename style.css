@@ -1,0 +1,104 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5; /* rosa claro */
+    color: #333;
+  }
+  
+  header {
+    background-color: #d63384 !important; /* rosa forte */
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .link_governo {
+    display: flex;
+    background-color: #f8c2dc;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  
+  .link_governo:hover {
+    background-color: #f08fb5;
+  }
+  
+  .logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .btn-danger {
+    background-color: #e83e8c;
+    border-color: #e83e8c;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c2185b;
+    border-color: #c2185b;
+  }
+  
+  main {
+    background-color: #ffe6f0;
+  }
+  
+  .fundo-laranja-gradiant {
+    background: linear-gradient(90deg, #ffccd5 0%, #f8a5c2 100%);
+  }
+  
+  .fundo-vermelho-gradiant {
+    background: linear-gradient(90deg, #f8a5c2 0%, #ffc1e3 100%);
+  }
+  
+  article {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.1);
+  }
+  
+  footer {
+    background-color: #f8c2dc;
+    padding: 20px 0;
+  }
+  
+  footer .nav-link {
+    color: #6c757d !important;
+  }
+  
+  footer .nav-link:hover {
+    color: #d63384 !important;
+  }
+  
+  .border-danger {
+    border-color: #d63384 !important;
+  }
+  .header-custom {
+    background-color: #ff69b4; /* Rosa médio */
+}
+
+.main-custom {
+    background-color: #ffe4e1; /* Rosa bem claro para não cansar a visão */
+}
+    .footer-custom {
+        background-color: #ff1493; /* Rosa escuro */
+    }
+  
